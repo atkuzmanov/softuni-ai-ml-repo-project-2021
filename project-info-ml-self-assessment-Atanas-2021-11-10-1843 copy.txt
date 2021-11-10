@@ -1,0 +1,99 @@
+# Machine Learning
+## Final Project
+ 
+### Terms and conditions:
+By submitting your project for the exam, you agree with the following:
+* Use Jupyter notebook for text and maths. Writing code in Python is strongly preferred but you may use any programming language you like.
+* Write your research and code in English. Bulgarian is also acceptable but try to use English.
+* If you have sensitive, copyrighted, or copy-protected assets, including but not limited to, images, multimedia, code, documents, and datasets,
+  you can sign an NDA (non-disclosure agreement) with the SoftUni team. Contact the lecturer if you need assistance with the process.
+* Any code which does not comply with the Bulgarian law (as of the exam date), will be given zero points.
+* Any malicious code, or code intended to do harm to the user's computer, information, or privacy, will be given zero points.
+ 
+### Self-assessment:
+The numbers in brackets define possible points for the corresponding item.
+ 
+1. Problem statement (0-10)
+    * How well is the problem defined?
+    * Does the research address a real-life problem?
+    * Does the research solve the correct problem?
+2. Layout (0-20)
+    * Are the document sections structured properly?
+    * Is the article well-formatted (in terms of readability)?
+3. Code quality (0-20)
+    * Is the code well-written? Is the code self-documenting?
+    * Is the code organized into functions?
+    * Is the code generally well-structured?
+4. Previous research (0-10)
+    * Have you cited at least two other sources?
+    * Does the project contain comparisons between the current and the previous results?
+5. Gathering / generating, cleaning, and formatting data (0-10)
+    * Every problem deals with "real-world" data in some way. Even if you don't use datasets, you'll likely generate some data
+    * How is the data gathered?
+    * Is the process statistically valid?
+    * Is the process of data acquisition, data cleaning, and data manipulation well documented?
+6. Testing (0-10)
+    * This can have various meanings: unit testing, hypothesis testing, train / test data set, etc.
+    * Is the code thoroughly tested?
+    * Are there any comparisons to other implementations / other articles / previous research?
+7. Visualization (0-10)
+    * All kinds of projects employ some visualization: graphical plots, tables, etc.
+    * Are all visualizations correct (i.e. convey the intended meaning without misleading the intended audience)?
+    * Are all visualizations clear, and easy to understand?
+8. Communication (0-10)
+    * Does the project tell the story correctly?
+    * Does the project serve the audience it was intended for?
+
+### Self-assessment and notes filled in by Atanas Kuzmanov:
+
+1. Problem statement (10)
+    * The problem is clearly stated and discussed in the "Introduction" and "Abstract" sections. The "Null hypothesis" and "Alternative hypothesis" are clearly stated and explored using the Scientific Method and solved in the process, and results are discussed in the "Results and Summary" section.
+    * Null hypothesis and Alternative hypothesis are set out in the "Hypothesis" section and later disproved and/or proven with experiments throughout the notebook, with graphics and visualizations, for example, trying to see correlations between car features etc.
+    * One of the aims of this article is to also understand some Machine Learning basics, more specifically to understand ML algorithms and how to improve them, so we can create models, train them, test them and extract predictions and information we might be interested in.
+    This article is an exploration and extension inspired by a group of articles in the "Abstract" section.
+    These articles are great, each one on their own accord, however I felt each one of them had some bits missing, which were present in the other article, which in turn had other bits missing which were present in the previous or next article, and so on. Hence I want to try and improve on that in this article.
+    At a first glance this article/notebook might look like it was copied from the originals, however it is not, as each line of code or words has been carefully considered and deliberated on whether or not to change it, or how to change it. This is especially true regarding the code as in the least bit it has been modified to work as a function.
+    While working on this article, and re-working the original articles, I encountered and had to deal with multiple problems. For more information please see the "Troubleshooting" sections.
+2. Layout (19)
+    * The layout is well structured with different sections well emphasized and differentiated.
+    * A structure of nested headlines using Markdown has been used.
+    * Additional layout elements, such as horizontal lines have been used to further support readability and structure of the layout.
+    * Different fonts such as bold, italic etc. have been used.
+    * Use of Code cells, LaTeX, graphs and images have been used and positioned according to the flow of the article.
+    * References, links and anchor tags have been used to link to different sections for easier navigation.
+    * The only downside, which I can currently think of at the time of writing this is that the project is a bit lengthy. This however can be alleviated by using the Jupyter Notebook Nbextensions, and the "toc2" extension in particular, which is what I have been using.
+3. Code quality (18)
+    * All the code in the project is working.
+    * Currently most of the code in the article has been refactored into separate functions and most of the other code in the article is left fragmented throughout. There is a very good reason for this, which is that one of the aims of this article is to also understand some Machine Learning basics, more specifically to understand ML algorithms and how to improve them, so we can create models, train them, test them and extract predictions and information we might be interested in. This is why the fragments of code throughout this article are used to help us and illustrate and demonstrate different parts Machine Learning and Data Science as a whole.
+    * Most of the commented out code in this article is left on purpose to serve as information, as part of the intent for this article is for it to be a knowledgebase.
+    * Some of the code quality has been improved by making some functions idempotent with special checks, so that they have the same effect, no matter how many times they are ran.
+    * The code is well commented.
+4. Previous research (10)
+    * I have done an adequate amount of research for this topic and reading in order to accomplish extending the pre-existing notebooks. All of the research can be found in the "Research" and "References" sections.
+5. Gathering / generating, cleaning, and formatting data (10)
+    * I have explored and gathered several datasets before choosing the data set for the project. In addition when the necessity arised, I researched and have done an extensive Exploratory Data Analysis (EDA) on the data set, which I then explored, cleaned, transformed and amalgamated in the solution I needed. The dataset I have explored can be seen referenced in the "Research" section.
+    * The data is cleaned and prepared in the "EDA" section.
+    * The only downside, which I can currently think of at the time of writing this is that the data might be a bit small, but I have tried to use that as an advantage and demonstrate boosting with a boosting algorithm, in order to get the metric scores we are after.
+6. Testing (6)
+    * Project tests
+        * Any mathematics in the project for which I have had doubts or have not understood I have tested using Wolfram Alpha.
+        * I have repeatedly ran "Kernel -> Restart & Run All" to confirm all is working and have fixed bugs when things have been broken.
+    * Code tests
+        * There are code test, however the focus of this notebook is not on code tests. Due to the nature of this notebook, being focused on ML, most of the tests of this note book are actually metrics, scoring, score analysis, model testing and cross-validation.
+        * There are tests in the project. Since code tests are outside of the focus of this project most of the tests are visual print outs of the data and visual confirmations.
+        * Most of the tests in this project are visual and are marked with this "### Test" comment above it.
+        * There are also tests which are more functional and for example print a message if an assertion error is not thrown.
+7. Visualization (10)
+    * I have tried to make the project as visually rich as possible with my existing knowledge and the knowledge I have gained by researching how to visualize new types of graphics. There are lots of graphs and plots for looking at the data from different angles and different perspectives and there are different comparisons of data.
+    Most of the visualizations are in the "EDA" section, but there are additional graphics with most models.
+8. Communication (10)
+    * I have tried to provide a nice flow, ease of read and a friendly and sometimes fun tone of the article, and at the same time clear and understandable communication. In order to aid this I have provided a narrative to this article. In order to distinguish it I have used italics for it throughout the article.
+    * Please keep in mind that this article is intended to be both scientific and humorous and fun sometimes and has no intention of insulting or offending anyone.
+    * A Jupyter Notebook Nbextensions extension has been used for spell checking to ensure high quality of the article.
+9. Bonus points (6)
+    * In addition additional effort has been put into making the project more visually appealing with a headline image, and other visual stylings.
+    * I have been honest and worked on this project entirely by myself and have made a lot of personal sacrifices in order to make it possible.
+    * In addition, in my opinion, I have been honest and critical of myself throughout the project and in the "Further development" section, "We stop and we think" section, as well as in this assessment.
+    * There are some subtle hidden Easter eggs in the project.
+
+
