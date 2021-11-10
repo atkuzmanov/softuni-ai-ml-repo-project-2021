@@ -70,7 +70,7 @@ The numbers in brackets define possible points for the corresponding item.
     * The code is well commented.
 4. Previous research (10)
     * I have done an adequate amount of research for this topic and reading in order to accomplish extending the pre-existing notebooks. All of the research can be found in the "Research" and "References" sections.
-5. Gathering / generating, cleaning, and formatting data (9)
+5. Gathering / generating, cleaning, and formatting data (10)
     * I have explored and gathered several datasets before choosing the data set for the project. In addition when the necessity arised, I researched and have done an extensive Exploratory Data Analysis (EDA) on the data set, which I then explored, cleaned, transformed and amalgamated in the solution I needed. The dataset I have explored can be seen referenced in the "Research" section.
     * The data is cleaned and prepared in the "EDA" section.
     * The only downside, which I can currently think of at the time of writing this is that the data might be a bit small, but I have tried to use that as an advantage and demonstrate boosting with a boosting algorithm, in order to get the metric scores we are after.
