@@ -1,0 +1,107 @@
+# Math Concepts for Developers
+## Final Project
+
+### Terms and conditions:
+By submitting your project for the exam, you agree with the following:
+* Use Jupyter notebook for text and maths. You can use any programming language you would like.
+* Write your research and code in English. Bulgarian is also acceptable but try to use English.
+* If you have sensitive, copyrighted, or copy-protected assets, including but not limited to, images, multimedia, code, documents, and datasets,
+  you can sign an NDA (non-disclosure agreement) with the SoftUni team. Contact the lecturer if you need assistance with the process.
+* Any code which does not comply with the Bulgarian law (as of the exam date), will be given zero points.
+* Any malicious code, or code intended to do harm to the user's computer, information, or privacy, will be given zero points.
+
+### Self-assessment:
+The numbers in brackets define possible points for the corresponding item.
+
+1. Problem statement (0-10)
+	* How well is the problem defined?
+	* Does the research address a real-life problem?
+	* Does the research solve the correct problem?
+2. Layout (0-20)
+	* Are the document sections structured properly?
+	* Is the article well-formatted (in terms of readability)?
+3. Code quality (0-20)
+	* Is the code well-written? Is the code self-documenting?
+	* Is the code organized into functions?
+	* Is the code generally well-structured?
+4. Previous research (0-10)
+	* Have you cited at least two other sources?
+	* Does the project contain comparisons between the current and the previous results?
+5. Gathering / generating, cleaning, and formatting data (0-10)
+	* Every problem deals with "real-world" data in some way. Even if you don't use datasets, you'll likely generate some data
+	* How is the data gathered?
+	* Is the process statistically valid?
+	* Is the process of data acquisition, data cleaning, and data manipulation well documented?
+6. Testing (0-10)
+	* This can have various meanings: unit testing, hypothesis testing, train / test data set, etc.
+	* Is the code thoroughly tested?
+	* Are there any comparisons to other implementations / other articles / previous research?
+7. Visualization (0-10)
+	* All kinds of projects employ some visualization: graphical plots, tables, etc.
+	* Are all visualizations correct (i.e. convey the intended meaning without misleading the intended audience)?
+	* Are all visualizations clear, and easy to understand?
+8. Communication (0-10)
+	* Does the project tell the story correctly?
+	* Does the project serve the audience it was intended for?
+
+### Self-assessment and notes filled in by Atanas Kuzmanov:
+
+1. Problem statement (10)
+	* The problem is clearly stated and discussed in the "Introduction" and "Abstract" sections. The "Null hypothesis" and "Alternative hypothesis" are clearly stated and explored using the Scientific Method and solved in the process, and results are discussed in the "Results and Summary" section.
+	* Null hypothesis and Alternative hypothesis are set out in the "Hypothesis" section and later disproved and/or proven with experiments throughout the notebook, with graphics and visualizations, for example, trying to see which is the most common star sign in the "What about star sign" section.
+	* One of the aims of this article is to also understand a bit of Data Science, more specifically how to clean, manipulate and visualize data in order to get it into a usable state from which we can extract information we might be interested in.
+	Another aim of this article is to hopefully make these topics less taboo, which is probably a good thing, as we will see in the Research section, more specifically Research conclusions section, these topics penetrate our lives in various ways and are therefore important.
+	Please keep in mind that this article is intended to be both scientific and humorous and fun and has no intention of insulting or offending anyone.
+	The humour, jokes and friendly tone of this article is chosen on purpose and intended as it seemed like a good way to convey this data, containing explicit content, and in this way to have a better reception, rather than a negative or offensive outlook.
+	This article is an exploration and extension inspired by the original article - "Pornactors are among us! (18+)" by infamous25700 - Alexander Filin in Kaggle. 
+	The first main difference between this notebook and the original one is that we will not be merging the two data sets and instead keep the separation between porn stars and porn models.
+	This way if more intricate differentiations or parallels need to be extrapolated it can be done in an easier manner.
+	In addition, as an expansion of the original article each section has been provided with a "Results comparison" subsection, which compares the current results of the separation of the data sets, with the original results, where the datasets are merged.
+	Furthermore a further expansion of the original article/notebook can be seen in the Deeper penetration of the data section where new explorations and visualizations of the data have been added.
+	At a first glance this article/notebook might look like it was copied literally from the original, however it is not, as each line of code or words has been carefully considered and deliberated on whether or not to change it, or how to change it. This is especially true regarding the code as in the least bit it has been modified to work as a function for both data sets, rather than on a single data set shared as a global variable.
+	While working on this article, and re-working the original article, I encountered and had to deal with multiple problems, especially now that the data had a shape different than the original. For more information please see the Troubleshooting section in Appendix A.
+2. Layout (19)
+	* The layout is well structured with different sections well emphasized and differentiated.
+	* A structure of nested headlines using Markdown has been used.
+	* Additional layout elements, such as horizontal lines have been used to further support readability and structure of the layout.
+	* Different fonts such as bold, italic etc. have been used.
+	* Use of Code cells, LaTeX, graphs and images have been used and positioned according to the flow of the article.
+	* References, links and anchor tags have been used to link to different sections for easier navigation.
+	* The only downside, which I can currently think of at the time of writing this is that the project is a bit lengthy. This however can be alleviated by using the Jupyter Notebook Nbextensions, and the "toc2" extension in particular, which is what I have been using.
+3. Code quality (18)
+	* All the code in the project is working.
+	* Currently most of the code in the article has been refactored into separate functions and most of the other code in the article is left fragmented throughout. There is a very good reason for this, which is that one of the aims of this article is to also understand a bit of Data Science, more specifically how to clean, manipulate and visualize data in order to get it into a usable state from which we can extract information we might be interested in. This is why the fragments of code throughout this article are used to help us and illustrate and demonstrate different parts of data cleaning, transformation and visualization as a whole.
+	* Most of the commented out code in this article is left on purpose to serve as information, as part of the intent for this article is for it to be a knowledgebase.
+	* Some of the code quality has been improved by making some functions idempotent with special checks, so that they have the same effect, no matter how many times they are ran.
+	* The code is well commented.
+4. Previous research (10)
+	* I have done an adequate amount of research for this topic and reading in order to accomplish this great feat of re-building and extending this project. All of the research can be found in the "Research" section.
+5. Gathering / generating, cleaning, and formatting data (10)
+	* I have explored and gathered several datasets before choosing the data sets for the project. In addition when the necessity arised, I researched and selected additional data sets, such as the Countries and Country Codes data sets, which I then explored, cleaned, transformed and amalgamated in the solution I needed. The datasets I have explored can be seen referenced in the "Research" section.
+	* The data is cleaned and prepared in the "Getting familiar with the data." and "Cleaning and tidying the data" sections, and then on the spot, where needed.
+6. Testing (6)
+	* Project tests
+		* Any mathematics in the project for which I have had doubts or have not understood I have tested using Wolfram Alpha.
+		* I have repeatedly ran "Kernel -> Restart & Run All" to confirm all is working and have fixed bugs when things have been broken.
+	* Code tests
+		* There are tests in the project. Since code tests are outside of the focus of this project most of the tests are visual print outs of the data and visual confirmations.
+		* Most of the tests in this project are visual and are marked with this "### Test" comment above it.
+		* There are also tests which are more functional and for example print a message if an assertion error is not thrown.
+		* I consider this amount of test coverage not great, but adequate for the purpose of this article
+7. Visualization (10)
+	* I have tried to make the project as visually rich as possible with my existing knowledge and the knowledge I have gained by researching how to visualize new types of graphics. There are lots of graphs and plots for looking at the data from different angles and different perspectives and there are different comparisons of data.
+8. Communication (10)
+	* I have tried to provide a nice flow, ease of read and a friendly and sometimes fun tone of the article, and at the same time clear and understandable communication. In order to aid this I have provided a narrative to this article. In order to distinguish it I have used italics for it throughout the article.
+	* Another aim of this article is to hopefully make these topics less taboo, which is probably a good thing, as we will see in the "Research" section, more specifically "Research conclusions" sections, these topics penetrate our lives in various ways and are therefore important.
+	* Please keep in mind that this article is intended to be both scientific and humorous and fun and has no intention of insulting or offending anyone.
+	* The humour, jokes and friendly tone of this article is chosen on purpose and intended as it seemed like a good way to convey this data, containing explicit content, and in this way to have a better reception, rather than a negative or offensive outlook.
+	* A Jupyter Notebook Nbextensions extension has been used for spell checking to ensure high quality of the article.
+9. Bonus points (6)
+	* Choosing a controversial taboo topic which is something only the bravest of the brave would dare to do. This article has explicit content and is strictly for those of age 18+.
+	* Lots of connoisseur memes and jokes, tastefully spread throughout the notebook to keep the mind focused by providing the needed amount of fun and distraction in an otherwise scientific and lengthy article. This is an actual technique I learned from the "Head First" series of books.
+	* A bonus joke in the "Appendix A" section.
+	* In addition additional effort has been put into making the project more visually appealing by making a headline image, and other visual stylings.
+	* I have been honest and worked on this project entirely by myself. This can be further confirmed by the screenshots of my GitHub repo, included in the "A lot of work and learning along the way" subsection in "Appendix A", showing that I am the sole contributor to my project repo and that all commits are done by myself.
+	* In addition, in my opinion, I have been honest and critical of myself in the "Things I would have done differently." subsection in the "Further development" section as well as in this assessment.
+
+
