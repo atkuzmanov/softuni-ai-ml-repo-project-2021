@@ -46,6 +46,8 @@ The numbers in brackets define possible points for the corresponding item.
 
 ### Self-assessment and notes filled in by Atanas Kuzmanov:
 
+#### Project title: 
+
 1. Problem statement (10)
     * The problem is clearly stated and discussed in the "Introduction" and "Abstract" sections. The "Null hypothesis" and "Alternative hypothesis" are clearly stated and explored using the Scientific Method and solved in the process, and results are discussed in the "Results and Summary" section.
     * Null hypothesis and Alternative hypothesis are set out in the "Hypothesis" section and later disproved and/or proven with experiments throughout the notebook, with graphics and visualizations, for example, trying to see correlations between car features etc.
